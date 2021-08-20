@@ -1,7 +1,7 @@
 Details of the host where the tests have been made:
 
 - Datadog agent unde rOS Centos 7 minimal installation
-- Apache HTTPD installed with server status enabled, hosting a single index.html page into /var/www/html
+- Apache HTTPD installed with server status enabled, hosting a single JS weather app index.html page into /var/www/html
 - Tomcat&JDK with JVM enabled to allow Datadog read tomcat metrics tomcat.d/conf.yaml was customized to get the tomcat metrics (attached)
 - Database
 - APM

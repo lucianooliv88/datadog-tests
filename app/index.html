@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Little Weather App</title>
+  </head>
+  <body>
+    <body>
+        <nav class="navbar navbar-light bg-light mb-5">
+            <div class="container">
+		    <a href="#" class="navbar-brand">My Little Weather App</a><img src="https://i2.wp.com/eatrio.net/wp-content/uploads/2012/11/jaguarbrasilia1.jpg" width="150" height="100">
+            </div>
+        </nav>
+        <div class="container searchContainer">
+            <div class="search card card-body">
+		    <h1><center>Get The Weather For a Location</center></h1>
+                <p class="lead">Enter Your Location Below</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="Location">
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+        <div class="container text-center mt-7">
+            <button class="btn btn-dark" id="submit">Get here!</button>
+        </div>
+        
+        <div id="content">
+
+        </div>
+        <footer class="mt-5 p-3 text-center bg-light">
+             My little Weather App &copy;
+        </footer>
+  </body>
+  <script src="fetch.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</html>

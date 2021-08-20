@@ -1,0 +1,16 @@
+Details of the host where the tests have been made:
+
+- Datadog agent unde rOS Centos 7 minimal installation
+- Apache HTTPD installed with server status enabled, hosting a single index.html page into /var/www/html
+- Tomcat&JDK with JVM enabled to allow Datadog read tomcat metrics tomcat.d/conf.yaml was customized to get the tomcat metrics (attached)
+- Database
+- APM
+still in process
+- Attached screenshots
+* DATADOG AGENT RUNNING AT HOST AFTER INSTALLATION RUNNING SINGLE COMMAND PROVIDE BY THE DATADOG WEB CONSOLE
+* TAG DATADOG CONF FILE
+* TOMCAT INTEGRATION HAS BEEN SHOWED AS OUTPUT OF SERVICE DATADOG-AGENT STATUS
+* DATADOG WEB CONSOLE SHOWING HOST UP, SHOWING THE HOST IN INFRA LIST, EVENTS CONFIRMING INSTALLATION
+* APACHE AND TOMCAT METRICS SHOWING ON HOST DASHBOARD
+* CUSTOMIZED DASHBOARD WITH THE INFRA MONITOR CPU, MEMORY AND DISK
+

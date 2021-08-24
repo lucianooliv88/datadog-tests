@@ -7,7 +7,7 @@
 ## The Datadog API key to associate your Agent's data with your organization.
 ## Create a new API key here: https://app.datadoghq.com/account/settings
 #
-api_key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+api_key: 48cc8bda4e04c9f58280fc7236125b52
 
 ## @param site - string - optional - default: datadoghq.com
 ## The site of the Datadog intake to send Agent data to.
